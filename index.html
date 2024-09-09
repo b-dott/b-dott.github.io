@@ -3,24 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello Guys</title>
+    <title>Updated Website</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
             margin: 0;
+            padding: 0;
             background-color: #104bc1;
+            color: #fff;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 20px 0;
         }
         h1 {
-            font-size: 48px;
-            color: #333;
+            font-size: 36px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #0d3a99;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #0d3a99;
+            border-radius: 5px;
         }
     </style>
 </head>
 <body>
-    <h1>You are a bot!</h1>
+    <div class="container">
+        <header>
+            <h1>Welcome to Our Website</h1>
+        </header>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#appointment">Appointment</a>
+        </nav>
+        <section id="home">
+            <h2>Home</h2>
+            <p>Welcome to our website. This is the home section where you can find general information.</p>
+        </section>
+        <section id="about">
+            <h2>About</h2>
+            <p>Learn more about our company and our mission in this section.</p>
+        </section>
+        <section id="appointment">
+            <h2>Appointment</h2>
+            <p>Schedule an appointment or contact us for more information.</p>
+        </section>
+    </div>
 </body>
 </html>
